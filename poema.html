@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> 
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        body {
+            background-color: black;
+            text-align: center;
+            font-family: 'Young Serif', serif;
+        }
+
+        header {
+            background-color: black;
+            color: white;
+            text-align: center;
+        }
+
+        header > h1 {
+            font-size: 100px;
+            padding-top: 30px;
+            font-variant: small-caps;
+        }
+
+        header > h3 {
+            font-size: 25px;
+            padding-bottom: 30px;
+        }
+
+        main {
+            background-image: linear-gradient(to bottom, black, rgb(28, 28, 28));
+        }
+
+        div {
+            background-color: rgb(255, 255, 255);
+            border: 1px solid black;
+            border-radius: 5px;
+            padding: 15px;
+            height: 90px;
+            width: 150px;
+        }
+
+        div > p {
+            padding-left: 10%;
+            font-size: 30px;
+        }
+
+        div:hover {
+            background-image: linear-gradient(to right, rgb(255, 255, 255), rgb(218, 218, 218));
+            transition-duration: 1s;
+            width: 700px;
+            height: 90px;
+        }
+
+        a {
+            font-size: 25px;
+            color: rgb(0, 0, 0);
+            text-decoration: none;
+            font-weight: bolder;
+        }
+
+        div > p > a:hover {
+            text-decoration: underline;
+        }
+
+        aside {
+            padding: 10px;
+        }
+
+        aside > h3 {
+            font-size: 50px;
+            color: white;
+        }
+
+        aside > p {
+            padding-left: 15px;
+            font-size: 30px;
+            color: white;
+            padding-bottom: 5px;
+        }
+
+        aside > p > a {
+            color: white;
+            padding: 3px;
+        }
+
+        aside > p > a:hover {
+            background-color: #16A180;
+            border-radius: 5px;
+            transition-duration: 0.5s;
+        }
+
+        aside > p > a.youtube:hover {
+        background-color: red;
+        color: white;
+    }
+
+    aside > p > a.facebook:hover {
+        background-color: rgb(52, 52, 252);
+        color: white;
+    }
+
+    aside > p > a.instagram:hover {
+        background-image: linear-gradient(to right, purple, #f30085, #d8d800, rgb(255, 200, 0));
+        color: white;
+    }
+
+    aside > p > a.linkedin:hover {
+        background-color: blue;
+        color: white;
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Poema</h1>
+        <h3>Segue abaixo quatro poemas destinados para as pessoas mais importantes da sua vida.</h3>
+    </header>
+    <main>
+        <div>
+            <p><a href="namorada.html" target="_blank">Namorada</a></p>
+        </div>
+        <div>
+            <p><a href="pai.html" target="_blank">Pai</a></p>
+        </div>
+        <div>
+            <p><a href="irmao.html" target="_blank">Irmão-caçula</a></p>
+        </div>
+        <div>
+            <p><a href="mae.html" target="_blank">Mãe</a></p>
+        </div>
+    <article>
+        <aside>
+            <h3>Compositor</h3>
+            <p><a href="https://chat.openai.com/" target="_blank">ChatGPT</a>
+            </p>
+            <h3>Quer saber mais sobre mim?</h3>
+                <p>Me siga nas minhas redes sociais!</p>
+                <p><a href="https://www.youtube.com/@bolinhadelima6170/videos" class="youtube">YouTube</a></p>
+                <p><a href="https://www.facebook.com/guilherme.marques.37669/" class="facebook">Facebook</a></p>
+                <p><a href="https://www.instagram.com/guimardelima/" class="instagram">Instagram</a></p>
+                <p><a href="https://www.linkedin.com/in/guilherme-marques-de-lima-0b5361219/" class="linkedin">Linkedin</a></p>
+        </aside>
+    </article>
+    </main>
+    <footer>
+        <p style="background-color: black; color: white; text-align: center;">Feito por GuiMLima</p>
+    </footer>
+</body>
+</html>
